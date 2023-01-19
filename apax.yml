@@ -1,0 +1,18 @@
+name: "a-xtest-project"
+version: 0.0.0
+type: app
+targets:
+  #- "1500"
+  #- axunit-llvm
+  - plcsim
+devDependencies:
+  "@ax/sdk": 3.0.1
+
+dependencies:
+  "@ax/trace": ^2.4.1
+  "@ax/ax2tia": ^4.3.6
+  "@ax/system-counters": ^3.0.5
+  "@simatic-ax/snippetscollection": ^0.0.15
+
+registries:
+  '@simatic-ax': 'https://npm.pkg.github.com/'
