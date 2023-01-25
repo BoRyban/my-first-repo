@@ -17,6 +17,7 @@ END_PROGRAM
 FUNCTION myFC : Int
     VAR_INPUT
         iNumber : Int;
+        iNum : Int;
     END_VAR
     
     myFC:=iNumber;
